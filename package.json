@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "App\r GymPass style app.",
   "main": "index.js",
+  "engines": {
+    "node": "20.11.0"
+  },
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
